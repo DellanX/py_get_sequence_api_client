@@ -1,0 +1,93 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.manifest
+*.spec
+*.log
+*.coverage
+.coverage.*
+.cache/
+.pytest_cache/
+.tox/
+.env/
+.venv/
+venv/
+ENV/
+.envrc
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Test output
+htmlcov/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Others
+*.sqlite3
+*.db
+*.bak
+*.swp
+*.swo
+*.orig
+*.tmp
+*.old
+*.pid
+*.gz
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+*.bin
+*.exe
+*.dll
+*.obj
+*.o
+*.a
+*.lib
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+*.doc
+*.docx
+*.pdf
+*.rtf
+*.log
+*.out
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.ipr
+*.iws
+*.idea/
+
+# Security
+*.pem
+*.key
+*.crt
+*.csr
+
+# Node
+node_modules/

@@ -1,4 +1,4 @@
-# sequence_api_client
+# py_get_sequence_api_client
 
 A Python client for the Sequence financial orchestration platform API.
 
@@ -9,13 +9,13 @@ A Python client for the Sequence financial orchestration platform API.
 
 ## Installation
 ```bash
-pip install sequence_api_client
+pip install py_get_sequence_api_client
 ```
 
 ## Usage
 ```python
 import aiohttp
-from sequence_api_client.client import SequenceApiClient
+from py_get_sequence_api_client.client import SequenceApiClient
 
 async def main():
     async with aiohttp.ClientSession() as session:

@@ -1,7 +1,7 @@
 """Unit tests for SequenceApiClient."""
 
 import pytest
-from sequence_api_client.client import (
+from py_get_sequence_api_client.client import (
     SequenceApiClient,
     SequenceApiError,
     SequenceAuthError,
