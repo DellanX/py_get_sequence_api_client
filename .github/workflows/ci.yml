@@ -22,7 +22,7 @@ jobs:
           pip install .[test]
       - name: Run tests with coverage
         run: |
-          pytest --cov=py_get_sequence_api_client --cov-report=xml --cov-report=term
+          pytest --cov=GetSequenceIoApiClient --cov-report=xml --cov-report=term
       - name: Upload coverage report
         uses: actions/upload-artifact@v4
         with:
