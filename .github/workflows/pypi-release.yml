@@ -22,6 +22,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install build twine pytest
 
+      - name: Install package (editable mode)
+        run: pip install -e .
+
       - name: Set version from tag
         run: |
           VERSION=${GITHUB_REF#refs/tags/v}
