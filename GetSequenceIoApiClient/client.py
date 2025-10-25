@@ -8,7 +8,7 @@ from typing import Any
 
 import aiohttp
 
-API_BASE_URL = "https://api.sequence.finance/v1"
+API_BASE_URL = "https://api.getsequence.io/"
 API_TIMEOUT = 30
 
 _LOGGER = logging.getLogger(__name__)
