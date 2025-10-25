@@ -6,7 +6,7 @@ test = [
 ]
 [project]
 name = "GetSequenceIoApiClient"
-version = "0.1.0"
+version = "0.1.1"
 description = "Async Python client for Sequence financial orchestration platform API."
 authors = [
     { name = "Dyllan Macias", email = "DellanX@Live.com" }
