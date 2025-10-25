@@ -1,3 +1,9 @@
+[project.optional-dependencies]
+test = [
+    "pytest",
+    "pytest-cov",
+    "pytest-asyncio"
+]
 [project]
 name = "py_get_sequence_api_client"
 version = "0.1.0"
