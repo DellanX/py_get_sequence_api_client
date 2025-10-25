@@ -13,14 +13,18 @@ API_TIMEOUT = 30
 
 _LOGGER = logging.getLogger(__name__)
 
+
 class SequenceApiError(Exception):
     """Base exception for Sequence API errors."""
+
 
 class SequenceAuthError(SequenceApiError):
     """Authentication error with Sequence API."""
 
+
 class SequenceConnectionError(SequenceApiError):
     """Connection error with Sequence API."""
+
 
 class SequenceApiClient:
     """Client for the Sequence API."""
